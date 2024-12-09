@@ -1,4 +1,6 @@
-Welcome to the **GitHub Best Practices Demo Repository**, a proof of concept (PoC) designed to showcase advanced GitHub features, workflows, and best practices. This repository demonstrates how to structure, manage, and deploy projects effectively using GitHub's ecosystem, ensuring high-quality code and collaboration.
+# ***Samson Clement - GitHub Best Practices Demo Repo***
+
+Welcome to a a proof of concept (PoC) designed to showcase advanced GitHub features, workflows, and best practices. This repository demonstrates how to structure, manage, and deploy projects effectively using GitHub's ecosystem, ensuring high-quality code and collaboration.
 
 ---
 
@@ -63,15 +65,15 @@ This repository serves as a template and learning tool for developers looking to
    ```bash
    git clone https://github.com/Samson-clement/github-best-practices-demo.git
    cd github-best-practices-demo
-  ```
-1. Install Python dependencies (optional step, based on project requirements):
+   ```
+2. Install Python dependencies (optional step, based on project requirements):
   ```bash
   pip install -r requirements.txt
   ```
-1. Run the Flutter project:
-   ```bash
+3. Run the Flutter project:
+```bash
    flutter run
-  ```
+```
 
 ## Testing
 - Run automated tests for both Python and Flutter:
