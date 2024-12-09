@@ -4,4 +4,4 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"  # Root directory of the repository
     schedule:
-      interval: "weekly"  # Frequency of checks (daily, weekly, monthly)
+      interval: "weekly"  # Frequency of  checks (daily, weekly, monthly)
