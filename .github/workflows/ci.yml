@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # Job 1: Python Testing
+  python-tests:
+    name: Run Python Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      # Install dependencies
+      - name: Install Dependencies
+        run: |
+          pip install pytest pandas
+
+      # Run tests
+      - name: Run Tests
+        run: pytest tests/
