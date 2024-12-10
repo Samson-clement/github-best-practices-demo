@@ -3,6 +3,7 @@ name: "Repo Owner too Cool"
 title: "[COOL] This is a test for Issue Templates"
 labels: idea
 assignees: Samson-clement
+description: "Thank you for compliment!"
 body:
 - type: textarea
   attributes:
