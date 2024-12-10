@@ -3,32 +3,82 @@ name: "Repo Owner too Cool"
 title: "[COOL] This is a test for Issue Templates"
 labels: idea
 assignees: Samson-clement
-description: "Thank you for compliment!"
+description: "Thank you for the compliment! Fill out the details below."
 body:
-- type: textarea
-  attributes:
-    label: "What's wrong?"
----
+  - type: markdown
+    attributes:
+      value: |
+        **Describe the Owner**  
+        Drop some mad compliments here. How does the owner’s coolness cause the universe to align? Be as dramatic as you like.
 
-**Describe the Owner**
-Drop some mad compliments here. How does the owner’s coolness cause the universe to align? Be as dramatic as you like.
+  - type: textarea
+    id: describe-owner
+    attributes:
+      label: "What's wrong?"
+      description: "Describe how the owner's overwhelming coolness is causing issues."
+      placeholder: "Enter your thoughts here..."
+    validations:
+      required: true
 
-**Steps to reproduce the compliment:**
-1. Stare at the repository for 10 seconds.
-2. Realize how epic it is.
-3. Scroll to the README and feel the awe.
-4. Boom, the owner’s coolness strikes again.
+  - type: markdown
+    attributes:
+      value: |
+        **Steps to reproduce the compliment:**  
+        1. Stare at the repository for 10 seconds.  
+        2. Realize how epic it is.  
+        3. Scroll to the README and feel the awe.  
+        4. Boom, the owner’s coolness strikes again.
 
-**Expected compliment**
-Write down your overly positive expectations. How does this repository radiate excellence because of the owner?
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Write down the steps that led to your overwhelming appreciation of the owner."
+      placeholder: "1. Do this...\n2. Then this...\n3. Enjoy the awesomeness."
+    validations:
+      required: false
 
-**Screenshots**
-If applicable, flex some screenshots of how amazing this repo looks (don’t hold back on the filters).
+  - type: markdown
+    attributes:
+      value: |
+        **Expected compliment**  
+        Write down your overly positive expectations. How does this repository radiate excellence because of the owner?
 
-**Environment (please complete the following information):**
-- OS: [e.g., Windows, macOS, Galaxy-Brain OS]
-- Browser [e.g., Chrome, Safari, HyperCool Browser™]
-- Version [e.g., 2024]
+  - type: textarea
+    id: expected-compliment
+    attributes:
+      label: "Expected Compliment"
+      description: "Describe the ideal compliment or feeling you're expecting from interacting with this project."
+      placeholder: "The owner is so cool that..."
+    validations:
+      required: false
 
-**Additional context**
-Feel free to add any extra praise, memes, or poetry dedicated to the repository owner here.
+  - type: markdown
+    attributes:
+      value: |
+        **Screenshots**  
+        If applicable, flex some screenshots of how amazing this repo looks (don’t hold back on the filters).
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "Paste links or describe any visual evidence of coolness here."
+      placeholder: "Screenshot URLs or descriptions."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Additional context**  
+        Feel free to add any extra praise, memes, or poetry dedicated to the repository owner here.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional Context"
+      description: "Any final words of appreciation or fun details?"
+      placeholder: "Add your context here..."
+    validations:
+      required: false
