@@ -3,6 +3,10 @@ name: "Repo Owner too Cool"
 title: "[COOL] This is a test for Issue Templates"
 labels: idea
 assignees: Samson-clement
+body:
+- type: textarea
+  attributes:
+    label: "What's wrong?"
 ---
 
 **Describe the Owner**
