@@ -5,7 +5,7 @@ Welcome to a a proof of concept (PoC) designed to showcase advanced GitHub featu
 ---
 
 ## Purpose
-This repository serves as a template and learning tool for developers looking to enhance their GitHub workflows. It contains Python and Flutter code that will be deployed on **GitHub Pages**, demonstrating end-to-end project development and deployment.
+This repository serves as a template and learning tool for developers looking to enhance their GitHub workflows. It contains Python and Flutter code that will be deployed on **GitHub Pages**, demonstrating end-to-end project development and deployment. This is a change, ignore.
 
 ---
 
